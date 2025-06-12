@@ -5,7 +5,7 @@ from concurrent.futures import ProcessPoolExecutor
 
 
 gold_folder = "data/TritonBench_G_v1/"
-py_interpreter = "/home/lijianling/miniconda3/envs/LLM/bin/python"
+py_interpreter = "/workspace/TritonBench/.venv/bin/python"
 
 
 def compare_python_files(file1, file2):

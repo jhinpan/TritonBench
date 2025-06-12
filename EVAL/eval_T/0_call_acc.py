@@ -7,7 +7,7 @@ from concurrent.futures import ProcessPoolExecutor, as_completed
 
 statis_path = "data/TritonBench_T_v1.json"
 py_folder = "data/TritonBench_G_v1/"
-py_interpreter = "/home/lijianling/miniconda3/envs/LLM/bin/python"
+py_interpreter = "/workspace/TritonBench/.venv/bin/python"
 
 def extract_functions_and_imports(code):
     # Parse the code into an AST
